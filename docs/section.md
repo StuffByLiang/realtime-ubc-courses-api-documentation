@@ -63,7 +63,7 @@ Section {
 
 ## Endpoints
 
-### GET /section/:subject/:number
+### GET /section/:subject/:course
 
 return all course sections in a specific course eg. (CPSC 210)
 
@@ -151,7 +151,7 @@ eg CPSC 221
 
 #### Error Responses
 
-**Condition** : If the departmentCode or number is not found
+**Condition** : If the departmentCode or course is not found
 
 **Code** : `404 NOT FOUND`
 

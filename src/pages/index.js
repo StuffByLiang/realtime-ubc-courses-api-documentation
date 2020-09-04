@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Realtime or Cached Responses</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We essentially scrape the UBC ssc courses site for you when you make a request.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Comprehensive SSC Data</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Any data imaginable on the ssc courses site - this api has it all.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Made by UBC Students</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Made with love by UBC students
       </>
     ),
   },

@@ -98,7 +98,7 @@ SectionInfo {
 
 ## Endpoints
 
-### GET /sectionInfo/:subject/:number/:section
+### GET /sectionInfo/:subject/:course/:section
 
 Get the details of the courses' section with the given academic year, subject, number, and section.
 
@@ -197,7 +197,7 @@ eg CPSC 221 101
 
 ---
 
-### GET /sectionInfo/:subject/:number
+### GET /sectionInfo/:subject/:course
 
 Get the details of all sections under the given academic year, subject, and course number
 
@@ -215,7 +215,7 @@ Get the details of all sections under the given academic year, subject, and cour
 
 **Content examples**
 
-For a specific course given department code, number, return the info for all sections within that course in a list
+For a specific course given department code, course, return the info for all sections within that course in a list
 
 eg CPSC 221
 
@@ -230,7 +230,7 @@ eg CPSC 221
 ]
 ```
 
-see [GET sectionInfo/:subject/:number/:section](#get-sectioninfosubjectnumbersection)
+see [GET sectionInfo/:subject/:course/:section](#get-sectioninfosubjectcoursesection)
 
 #### Error Responses
 
@@ -284,7 +284,7 @@ eg CPSC
 ]
 ```
 
-see [GET sectionInfo/:subject/:number/:section](#get-sectioninfosubjectnumbersection)
+see [GET sectionInfo/:subject/:course/:section](#get-sectioninfosubjectcoursesection)
 
 #### Error Responses
 
@@ -329,7 +329,7 @@ Get all sections at UBC
 ]
 ```
 
-see [GET sectionInfo/:subject/:number/:section](#get-sectioninfosubjectnumbersection)
+see [GET sectionInfo/:subject/:course/:section](#get-sectioninfosubjectcoursesection)
 
 #### Error Responses
 

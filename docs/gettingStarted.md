@@ -13,19 +13,19 @@ All data is provided in json parsable format.
 
 <div class="code"><a href="/docs/course">course</a></div>
 
-* [retrieve all courses at UBC](course/index.md) : `GET /course`
-* [retrieve all courses in a subject](course/{subject}.md) : `GET /course/{subject}`
+* [retrieve all courses at UBC](course#get-coursesubject) : `GET /course`
+* [retrieve all courses in a subject](course#get-course) : `GET /course/{subject}`
 
 <div class="code"><a href="/docs/section">section</a></div>
 
-* [retrieve sections in a course with only basic data](section/{subject}{number}.md) : `GET /section/{subject}/{number}`
+* [retrieve sections in a course with only basic data](section#get-sectionsubjectcourse) : `GET /section/{subject}/{course}`
 
 <div class="code"><a href="/docs/sectionInfo">sectionInfo</a></div>
 
-* [retrieve all sections at UBC](sectionInfo/index.md) : `GET /sectionInfo`
-* [retrieve all sections for a subject](sectionInfo/{subject}.md) : `GET /sectionInfo/{subject}`
-* [retrieve all sections for a course](sectionInfo/{subject}{number}.md) : `GET /sectionInfo/{subject}/{number}`
-* [retrieve section for a specified section](sectionInfo/{subject}{number}{section}.md) : `GET /sectionInfo/{subject}/{number}/{section}`
+* [retrieve all sections at UBC](sectionInfo#get-sectioninfo) : `GET /sectionInfo`
+* [retrieve all sections for a subject](sectionInfo#get-sectioninfosubject) : `GET /sectionInfo/{subject}`
+* [retrieve all sections for a course](sectionInfo#get-sectioninfosubjectcourse) : `GET /sectionInfo/{subject}/{course}`
+* [retrieve section for a specified section](sectionInfo#get-sectioninfosubjectcoursesection) : `GET /sectionInfo/{subject}/{course}/{section}`
 
 ---
 
