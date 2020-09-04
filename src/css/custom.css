@@ -23,3 +23,32 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+footer {
+  text-align: center;
+}
+
+code {
+  color: #fff;
+  background-color: #444950;
+}
+
+.code {
+  border-radius: var(--ifm-code-border-radius);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: var(--ifm-code-font-size);
+  margin: 0;
+  padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
+  color: #fff;
+  display: inline-block;
+  background-color: #444950;
+  margin-bottom: 10px;
+}
+
+.code a {
+  color: #79a9fd;
+}
+
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- {
+  white-space: pre-wrap !important
+}
