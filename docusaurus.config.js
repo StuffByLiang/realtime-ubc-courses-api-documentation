@@ -63,7 +63,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()}. Built by <a href="https://stuffbyliang.com">Liang</a> with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Documentation built by <a href="https://stuffbyliang.com">Liang</a> with Docusaurus.`,
     },
   },
   presets: [
