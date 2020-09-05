@@ -65,6 +65,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()}. Documentation built by <a href="https://stuffbyliang.com">Liang</a> with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-177317940-2',
+    },
   },
   presets: [
     [
