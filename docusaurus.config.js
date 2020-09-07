@@ -4,11 +4,11 @@ module.exports = {
   url: 'https://docs.ubccourses.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  ogImage: 'img/thumbnail2.jpg',
   favicon: 'img/favicon.ico',
   organizationName: 'stuffbyliang', // Usually your GitHub org/user name.
   projectName: 'UBC Courses API Documentation', // Usually your repo name.
   themeConfig: {
+    image: 'img/thumbnail2.jpg',
     navbar: {
       title: 'UBC Courses API',
       logo: {
