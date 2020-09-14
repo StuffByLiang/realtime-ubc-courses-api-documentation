@@ -8,6 +8,8 @@ description: Example projects that use this API
 
 [UBC Courses](https://ubccourses.com) - The best intelligent UBC Course searcher out there
 
+[Course Ratings](https://courseratings.ca) - A platform for course reviews at UBC. Gain insight and grade distributions to help you find your course!
+
 #### Here are some other interesting projects that we'd also like to give a shoutout too!
 
 ... to be continued

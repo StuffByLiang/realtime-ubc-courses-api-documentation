@@ -5,7 +5,7 @@ title: Introduction
 
 Hey! I'm guessing you're here because you wanna develop a cool application, whether it be for your personal repertoire or for a local hackathon. Well, we're glad you're using this api.
 
-The UBC Realtime Courses API was developed in the hopes of making course data easily available to all developers. Any data imaginable on the ssc courses site - this api has it all. And the most important part of it all? This API can retrieve data in REAL-TIME. Woah.
+The UBC Realtime Courses API was developed in the hopes of making course data easily available to all developers. Any data imaginable (Vancouver or Okanagan Campus) on the ssc courses site - this api has it all. And the most important part of it all? This API can retrieve data in REAL-TIME. Woah.
 
 ### How does this API work?
 

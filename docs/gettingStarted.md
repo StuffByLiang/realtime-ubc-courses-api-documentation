@@ -38,6 +38,15 @@ example: <div class="code"><a target="_blank" href="https://api.ubccourses.com/s
 
 ---
 
+### How to get UBC okanagan data
+All endpoints by default retrieve vancouver data.
+
+If you want to obtain data from UBCO, specify a query parameter `okanagan`. Set this equal to 1.
+
+example: <div class="code"><a target="_blank" href="https://api.ubccourses.com/course/ANTH?okanagan=1">https://api.ubccourses.com/course/ANTH?okanagan=1</a></div>
+
+---
+
 ### Terminology for Request Parameters
 
 ```subject``` - subject/department code. ie ```CPSC```
