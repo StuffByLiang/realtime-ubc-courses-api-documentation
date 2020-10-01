@@ -11,13 +11,13 @@ Section {
   subject: string
   course: string;
   section: string;
-  status: string; 
-  activity: Enum<{
+  status: Enum<{
       'Full',
       'Restricted',
       'Available',
       'Blocked'
-  }>;
+  }>; 
+  activity: string;
   term: string;
   schedule: Array<{
     day: string; 
