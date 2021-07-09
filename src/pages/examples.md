@@ -10,6 +10,8 @@ description: Example projects that use this API
 
 [Course Ratings](https://courseratings.ca) - A platform for course reviews at UBC. Gain insight and grade distributions to help you find your course!
 
+[UBSee](https://www.ubsee.dev/) - Creates interactive graphs for UBC subjects and courses
+
 #### Here are some other interesting projects that we'd also like to give a shoutout too!
 
 ... to be continued
