@@ -12,7 +12,9 @@ description: Example projects that use this API
 
 [UBSee](https://www.ubsee.dev/) - Creates interactive graphs for UBC subjects and courses
 
-#### Here are some other interesting projects that we'd also like to give a shoutout too!
+[Worklist machine](https://worklistmachine.com) - Generates course schedules and helps you find the best one
+
+#### Here are some other interesting projects that we'd also like to give a shoutout to!
 
 ... to be continued
 
